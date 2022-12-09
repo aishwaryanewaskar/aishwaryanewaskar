@@ -6,7 +6,7 @@ import javax.naming.InvalidNameException;
 public class UserDefinedException extends Exception 
 {
 	void validateName(String name) throws InvalidNameException { 
-		String[] names = { "rohit", "ram", "suraj", "rafik"};
+		String[] names = { "Aishwarya", "Prerak", "Rutuja", "Sonali"};
         boolean found= false;
         for (String n: names)
         {
